@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b2a3a"/><stop offset=".55" stop-color="#d9743a"/><stop offset=".78" stop-color="#f4b860"/><stop offset="1" stop-color="#ffe7a8"/></linearGradient>
+  <radialGradient id="sun" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff2c2"/><stop offset=".45" stop-color="#ffd27a"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
+  <linearGradient id="haze" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd9a0" stop-opacity=".9"/><stop offset="1" stop-color="#ffd9a0" stop-opacity="0"/></linearGradient>
+  <linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3f6b1f" stop-opacity="0"/><stop offset="1" stop-color="#101a08" stop-opacity=".85"/></linearGradient>
+  <clipPath id="ground"><rect x="0" y="470" width="1200" height="430"/></clipPath>
+</defs>
+<rect width="1200" height="900" fill="url(#sky)"/>
+<circle cx="600" cy="470" r="200" fill="url(#sun)"/>
+<circle cx="600" cy="470" r="70" fill="#fff6d8"/>
+<!-- distant treeline -->
+<path d="M0 472 Q150 458 300 470 T600 466 T900 470 T1200 464 V480 H0Z" fill="#2c4a1e"/>
+<g clip-path="url(#ground)">
+  <!-- field stripes converging to vanishing point (600,470) -->
+  <g id="rows">
+    <polygon points="600,470 -900,900 -700,900" fill="#6a9a2e"/>
+    <polygon points="600,470 -700,900 -500,900" fill="#c9a24a"/>
+    <polygon points="600,470 -500,900 -300,900" fill="#5d8f2a"/>
+    <polygon points="600,470 -300,900 -100,900" fill="#d9b24f"/>
+    <polygon points="600,470 -100,900 100,900" fill="#4f8225"/>
+    <polygon points="600,470 100,900 300,900" fill="#b8963a"/>
+    <polygon points="600,470 300,900 500,900" fill="#5e912b"/>
+    <polygon points="600,470 500,900 700,900" fill="#cba64a"/>
+    <polygon points="600,470 700,900 900,900" fill="#4c7f24"/>
+    <polygon points="600,470 900,900 1100,900" fill="#d4ad4c"/>
+    <polygon points="600,470 1100,900 1300,900" fill="#588a29"/>
+    <polygon points="600,470 1300,900 1500,900" fill="#bd9b3e"/>
+    <polygon points="600,470 1500,900 1700,900" fill="#4e8126"/>
+    <polygon points="600,470 1700,900 1900,900" fill="#c9a247"/>
+    <polygon points="600,470 1900,900 2100,900" fill="#5a8d2a"/>
+  </g>
+  <!-- crop row texture lines -->
+  <g stroke="#0f1f06" stroke-opacity=".28" stroke-width="1.2">
+    <line x1="600" y1="470" x2="-800" y2="900"/><line x1="600" y1="470" x2="-600" y2="900"/><line x1="600" y1="470" x2="-400" y2="900"/><line x1="600" y1="470" x2="-200" y2="900"/><line x1="600" y1="470" x2="0" y2="900"/><line x1="600" y1="470" x2="200" y2="900"/><line x1="600" y1="470" x2="400" y2="900"/><line x1="600" y1="470" x2="600" y2="900"/><line x1="600" y1="470" x2="800" y2="900"/><line x1="600" y1="470" x2="1000" y2="900"/><line x1="600" y1="470" x2="1200" y2="900"/><line x1="600" y1="470" x2="1400" y2="900"/><line x1="600" y1="470" x2="1600" y2="900"/><line x1="600" y1="470" x2="1800" y2="900"/><line x1="600" y1="470" x2="2000" y2="900"/>
+  </g>
+  <!-- horizontal furrows -->
+  <g stroke="#2a3f12" stroke-opacity=".35" fill="none">
+    <path d="M0 500 H1200" stroke-width="1"/><path d="M0 540 H1200" stroke-width="1.5"/><path d="M0 600 H1200" stroke-width="2"/><path d="M0 690 H1200" stroke-width="3"/><path d="M0 810 H1200" stroke-width="4"/>
+  </g>
+  <rect x="0" y="470" width="1200" height="430" fill="url(#fg)"/>
+  <rect x="0" y="470" width="1200" height="160" fill="url(#haze)"/>
+</g>
+<!-- barn + silo -->
+<g transform="translate(870,392)">
+  <rect x="0" y="40" width="110" height="52" fill="#4a1f16"/>
+  <polygon points="-6,42 55,6 116,42" fill="#3a1811"/>
+  <rect x="44" y="60" width="22" height="32" fill="#2a110c"/>
+  <rect x="124" y="12" width="34" height="80" rx="4" fill="#8b8f96"/><ellipse cx="141" cy="12" rx="17" ry="8" fill="#a9adb3"/>
+</g>
+<!-- windmill on left -->
+<g transform="translate(240,380)" stroke="#2a1a10" stroke-width="3" fill="none"><line x1="0" y1="0" x2="-14" y2="98"/><line x1="0" y1="0" x2="14" y2="98"/><line x1="-8" y1="60" x2="8" y2="60"/><circle cx="0" cy="0" r="30" stroke-width="2"/><g stroke-width="2"><line x1="0" y1="0" x2="0" y2="-30"/><line x1="0" y1="0" x2="26" y2="-15"/><line x1="0" y1="0" x2="26" y2="15"/><line x1="0" y1="0" x2="0" y2="30"/><line x1="0" y1="0" x2="-26" y2="15"/><line x1="0" y1="0" x2="-26" y2="-15"/></g></g>
+<text x="70" y="820" font-family="Inter,Helvetica,Arial,sans-serif" font-size="72" font-weight="800" fill="#f2f6e0" letter-spacing="-1">ACRE</text>
+<text x="70" y="856" font-family="Inter,Helvetica,Arial,sans-serif" font-size="20" font-weight="500" fill="#d8e6b0" letter-spacing="4">IOWA FARMLAND · 1,240 ACRES · CSR2 84</text>
+<g transform="translate(1030,730)"><circle cx="60" cy="60" r="60" fill="none" stroke="#e6f0c0" stroke-opacity=".7" stroke-width="3"/><path d="M40 82 C40 60 52 44 82 40 C80 66 66 80 40 82Z M40 82 C52 68 62 60 74 50" fill="none" stroke="#e6f0c0" stroke-width="3" stroke-linejoin="round"/></g>
+</svg>
