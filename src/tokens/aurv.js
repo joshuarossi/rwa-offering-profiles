@@ -5,7 +5,7 @@ lede:'AURV gives investors direct, fully-allocated ownership of physical gold bu
 status:'Ongoing Offering · Series A',
 image:'aurv.png',accent:'#d4a53a',accent2:'#f2cf6e',accentRgb:'212,165,58',
 stats:[
-  {k:'Reference Price',v:'$3,412.50',s:'per troy oz · LBMA PM fix',live:true},
+  {k:'Reference Price',v:'$3,412.50',s:'per troy oz · LBMA PM fix'},
   {k:'Tokens Offered',v:'2,500',s:'of 10,000 authorised'},
   {k:'Gold in Vault',v:'2,500.31 oz',s:'77.77 kg · 62 bars'},
   {k:'Storage Fee',v:'0.12% p.a.',s:'deducted quarterly'},

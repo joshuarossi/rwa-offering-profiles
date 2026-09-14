@@ -42,7 +42,7 @@ function render(T){
 </div></div>
 
 <div class="wrap"><div class="stats">
-${T.stats.map(s=>`  <div class="stat"><div class="k">${esc(s.k)}</div><div class="v ${s.cls||''}" ${s.live?'id="liveNav"':''}>${esc(s.v)}</div><div class="s">${esc(s.s||'')}</div></div>`).join('\n')}
+${T.stats.map(s=>`  <div class="stat"><div class="k">${esc(s.k)}</div><div class="v ${s.cls||''}">${esc(s.v)}</div><div class="s">${esc(s.s||'')}</div></div>`).join('\n')}
 </div></div>
 
 <section id="overview"><div class="wrap">

@@ -5,7 +5,7 @@ lede:'HELX tokens are revenue-participation notes secured against the cash flows
 status:'Ongoing Offering · Tranche 2',
 image:'helx.png',accent:'#ff9f43',accent2:'#ffc76b',accentRgb:'255,159,67',
 stats:[
-  {k:'Token Price',v:'$50.00',s:'par value',live:false},
+  {k:'Token Price',v:'$50.00',s:'par value'},
   {k:'Tokens Offered',v:'400,000',s:'Tranche 2 · $20M'},
   {k:'Plant Capacity',v:'48.2 MWp',s:'92,400 modules · 12 inverters'},
   {k:'Target Yield',v:'7.4%',s:'annualised, distributed quarterly',cls:'up'},

@@ -5,7 +5,7 @@ lede:'TBLL is a tokenized share of a Delaware fund holding short-dated U.S. Trea
 status:'Ongoing Offering · Continuous',
 image:'tbll.png',accent:'#4f7cff',accent2:'#8fb0ff',accentRgb:'79,124,255',
 stats:[
-  {k:'NAV per token',v:'$1.0384',s:'accrues daily',live:true},
+  {k:'NAV per token',v:'$1.0384',s:'accrues daily'},
   {k:'Tokens Offered',v:'50,000,000',s:'continuous issuance'},
   {k:'Fund AUM',v:'$38.2M',s:'as of Sep 11, 2026'},
   {k:'7-Day Yield',v:'4.91%',s:'net of fees, annualised',cls:'up'},

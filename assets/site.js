@@ -139,12 +139,6 @@
     $$('.reveal').forEach(el=>ro.observe(el));
   }
 
-  /* ---------- live-ish ticker ---------- */
-  function initTicker(){
-    const el=$('#liveNav'); if(!el||!P.chart) return;
-    let v=P.chart.end; const r=rng(99);
-    setInterval(()=>{v+= (r()-0.5)*P.chart.end*0.0004; el.textContent=(P.chart.prefix||'')+fmt(v,P.chart.decimals??2);},2500);
-  }
 
-  document.addEventListener('DOMContentLoaded',()=>{initChart();initBars();initCalc();initFaq();initNews();initNav();initTicker();});
+  document.addEventListener('DOMContentLoaded',()=>{initChart();initBars();initCalc();initFaq();initNews();initNav();});
 })();

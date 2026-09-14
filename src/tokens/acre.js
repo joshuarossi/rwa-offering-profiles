@@ -5,7 +5,7 @@ lede:'ACRE tokens represent membership units in an LLC that owns three contiguou
 status:'Ongoing Offering · Round 1',
 image:'acre.png',accent:'#8bc34a',accent2:'#c5e17a',accentRgb:'139,195,74',
 stats:[
-  {k:'Token Price',v:'$100.00',s:'fixed for Round 1',live:false},
+  {k:'Token Price',v:'$100.00',s:'fixed for Round 1'},
   {k:'Tokens Offered',v:'96,000',s:'of 124,000 units'},
   {k:'Farmland',v:'1,240 acres',s:'3 farms · 1,186 tillable'},
   {k:'Cash Rent Yield',v:'4.2%',s:'net, 2026 crop year',cls:'up'},

@@ -5,7 +5,7 @@ lede:'CRU tokens represent fractional ownership of a professionally managed coll
 status:'Ongoing Offering · Vintage I',
 image:'cru.png',accent:'#c0392b',accent2:'#e8736a',accentRgb:'192,57,43',
 stats:[
-  {k:'Token NAV',v:'$248.60',s:'per token · Sep 1 valuation',live:true},
+  {k:'Token NAV',v:'$248.60',s:'per token · Sep 1 valuation'},
   {k:'Tokens Offered',v:'12,000',s:'of 20,000 units'},
   {k:'Cellar',v:'1,180 cases',s:'7,668 bottles · 41 wines'},
   {k:'12M Return',v:'+9.8%',s:'Liv-ex 1000 benchmark +6.1%',cls:'up'},
